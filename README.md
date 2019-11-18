@@ -1,1 +1,1 @@
-# eegalpha_BOLD
+# EEGalpha_BOLD
