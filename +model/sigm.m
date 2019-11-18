@@ -1,0 +1,1 @@
+function f=sigm(a,b,c,d)    % Sigmoid function    % voltage -> firing rate	% Can also use sigm(Ve,p) with p = point struct	if nargin == 2		f=b.qmax./(1+exp(-((a-b.theta)./b.sigma)));	else		f=d./(1+exp(-((a-b)./c)));	end
